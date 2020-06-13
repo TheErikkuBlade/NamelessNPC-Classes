@@ -1,0 +1,822 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "Enhancer",
+        "abbreviation": "EHR",
+        "full": "Enhancer",
+        "authors": [
+          "NamelessNPC"
+        ],
+        "convertedBy": [
+          "Erikku Blade"
+        ],
+        "version": "1.0",
+        "url": "https://docs.google.com/document/d/1LttwQL1SRMve1QqLgf77Fi4jH1eeTPNblZ6x_t8TK5M/edit#",
+        "targetSchema": "1.0.0"
+      }
+    ]
+  },
+  "class": [
+    {
+      "name": "Enhancer",
+      "source": "Enhancer",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": [
+        "wis",
+        "cha"
+      ],
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Enhancer Mana",
+            "Enhancer Powers"
+          ],
+          "rows": [
+            [
+              5,
+              "-"
+            ],
+            [
+              10,
+              3
+            ],
+            [
+              15,
+              3
+            ],
+            [
+              20,
+              4
+            ],
+            [
+              25,
+              4
+            ],
+            [
+              30,
+              5
+            ],
+            [
+              35,
+              5
+            ],
+            [
+              40,
+              6
+            ],
+            [
+              45,
+              6
+            ],
+            [
+              50,
+              7
+            ],
+            [
+              55,
+              7
+            ],
+            [
+              60,
+              8
+            ],
+            [
+              65,
+              8
+            ],
+            [
+              70,
+              9
+            ],
+            [
+              75,
+              9
+            ],
+            [
+              80,
+              10
+            ],
+            [
+              90,
+              10
+            ],
+            [
+              100,
+              11
+            ],
+            [
+              125,
+              11
+            ],
+            [
+              150,
+              12
+            ]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": [
+          "light"
+        ],
+        "weapons": [
+          "simple"
+        ],
+        "tools": [
+          {
+            "choose": {
+              "from": [
+                "Alchemist's Supplies",
+                "Brewer's Supplies",
+                "Caligrapher's Supplies",
+                "Carpenter's Tools",
+                "Cartographer's Tools",
+                "Cobbler's Tools",
+                "Cook's Utensils",
+                "Glassblower's Tools",
+                "Jeweler's Tools",
+                "Leatherworker's Tools",
+                "Mason's Tools",
+                "Painter's Supplies",
+                "Potter's Tools",
+                "Smith's Tools",
+                "Tinker's Tools",
+                "Weaver's Tools",
+                "Woodcarver's Tools"
+              ],
+              "count": 1
+            }
+          }
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "Animal Handling",
+                "Arcana",
+                "History",
+                "Insight",
+                "Investigation",
+                "Medicine",
+                "Nature",
+                "Perception",
+                "Persuasion",
+                "Religion",
+                "Survival"
+              ],
+              "count": 3
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) a {@item light crossbow|phb} and 20 {@item crossbow bolt|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+          "(a) {@item explorer's pack|phb} or (b) {@item diplomat's pack|phb}",
+          "2 {@item dagger} and {@item leather armor|phb}",
+          "(a) 1 set of artisan's tools"
+        ],
+        "goldAlternative": "2d4x10"
+      },
+      "multiclassing": {
+        "requirements": {
+          "wis": 13
+        },
+        "proficienciesGained": {}
+      },
+      "classFeatures": [
+        [
+          {
+            "name": "Enhancer Mana",
+            "entries": [
+              "At 1st level, you gain access to a special resource called mana which is a pool of energy you pull from to use your different enhancer abilities. For the abilities of enhancer you use your wisdom score for the attack rolls and DCs for any and all abilities. You gain back all this mana at the end of a long rest. ",
+              "Enhancer Save DC=8+Your proficiency modifier+your Wisdom ability score modifier",
+              "Enhancer Special Attack Modifier=Proficiency Modifier+your Wisdom Ability Modifier"
+            ]
+          },
+          {
+            "name": "Simple Enhancement",
+            "entries": [
+              "At 1st level, you gain a few special techniques that allow you to help your allies. Each of these techniques take an action to use.",
+              {
+                "type": "list",
+                "items": [
+                  "Enhance Endurance. You can spend 1 mana to give a creature within 30 feet of you a number of temporary hit points equal to 2+your wisdom modifier(minimum of 3). At 5th level you can spend 2 mana to give twice as much temporary hit points. At 11th level you can spend 3 mana to give 3 mana to give two different creatures within range twice the number of temporary hit points. At 17th level you can spend a bonus action instead of an action to use this ability. ",
+                  "Enhance Vitality. You can spend 1 mana to stabilize a creature that you can touch that is currently dying when you do it regains 1 hit point but is still counted as unconscious until another creature spends an action to wake it. At 5th level you can spend 5 mana to touch a creature and stabilize and have it recover 1 hit points so that it regains consciousness. At 11th level you can now spend 10 mana to be able to touch two different creatures granting both the benefit of this. At 17 th level the range of this ability increases so that it can be cast from up to 30 feet away. ",
+                  "Enhancer Barrier. You can spend 1 mana to give a creature a small barrier that is within 30 feet of you. This barrier acts as half cover and lasts until the end of that creatures turn or until that creature is hit by an attack. At 5th level you can spend 4 mana to have the barrier counted as ¾ cover. At 11th level you can spend 10 mana to provide two different creatures with the barrier. At 17th level you can increase the duration of the barrier to a number of rounds equal to ½ your wisdom modifier rounded down, when you do it lasts until the end of said rounds and not when an enemy strikes it."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Enhancer Type",
+            "entries": [
+              "At 1st level you choose which type of enhancer you want to be, Soul Guardian, Spiritual Guide, Soul Ferryman."
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Enhancer Powers",
+            "entries": [
+              "At 2nd level, you can choose 3 different enhancer powers from the Enhancer Powers list. At higher levels you gain additional powers, alternatively when you level up you can replace one power you know with a different one. Starting out you only learn how to apply these enhancer powers to others but at 3rd level you gain the ability to apply them to yourself as well. You can apply as many enhancements as you want to any ally that you can see that is within the distance of these enhancer powers, however some powers may specify that you cannot grant two different allies the same power, or that a power can only be used by itself."
+            ]
+          },
+          {
+            "name": "Enhancer's Aid",
+            "entries": [
+              "At 2nd level you learn a way to aid your allies when you are not directly near them. You can take the help action from up to 30 feet away, you can do this a number of times equal to your wisdom modifier before you must finish a long rest."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Self Enhancement",
+            "entries": [
+              "Starting at 3rd level you can now apply any enhancer power to yourself as well as other creatures. You can only enhance yourself with one enhancer ability or power at a time, at 5th level you can apply as many enhancements to yourself as long as you are able to from what the enhancer ability or feature says. At 10th level, enhancements placed on yourself last double the normal duration, and at 19th level these enhancements last until you finish a long rest."
+            ]
+          },
+          {
+            "name": "Knowledge of Magic and Enhancements",
+            "entries": [
+              "At 3rd level you are always under the effects of the {@spell detect magic} spell, however the range is 15 ft instead. You also have advantage on any ability check to determine a creature's condition whether it be about their current health or if they are afflicted by a magical effect such as a curse."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Enhancer Type Feature",
+            "entries": [
+              "At 5th level, gain a feature from your chosen Enhancer Type."
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Empowered Soul",
+            "entries": [
+              "At 6th level you’ve grown strong, and it begins to show as your Enhancer save DC and your Enhancer Special Attack increases by 1, this bonus becomes 2 at 12th level, and 3 at 18th level."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Efficient Enhancement",
+            "entries": [
+              "At 7th level when you can quicken how long it would take to enhance an ally, you can make an enhancement that would take an action instead take a bonus action, or an enhancement that would take a bonus action to a reaction. You can do this an amount of times equal to your wisdom modifier, regaining all uses after a short or long rest."
+            ]
+          },
+          {
+            "name": "Quick Aid",
+            "entries": [
+              "At 7th level, as a reaction when a creature within 15 feet of you makes an ability check, attack roll, or saving throw before the outcome is determined the creature can roll again and take the either result. You can do this a number of times equal to 1 + your wisdom modifier(minimum of 2), regaining expended uses after a long rest."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Enhancer Type Feature",
+            "entries": [
+              "At 9th level, gain a feature from your chosen Enhancer Type."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Mana Renewal",
+            "entries": [
+              "At 10th level, at the end of a short rest you can regain up to ¼ of your mana rounded up."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Extended Access",
+            "entries": [
+              "At 11th level you can increase the range of all of your enhancer Powers by 30 feet, an enhancer power that had a range of touch now has a range of 30 feet."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Enhancer Type Feature",
+            "entries": [
+              "At 13th level, gain a feature from your chosen Enhancer Type."
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 14th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Supernatural Resistance",
+            "entries": [
+              "At 15th level when you make a Saving throw you can spend 4 mana to gain advantage on the saving throw."
+            ]
+          },
+          {
+            "name": "Enhancer Type Feature",
+            "Entries": [
+              "At 15th level, gain a feature from your chosen Enhancer Type."
+            ],
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Quicker Mana Renewal",
+            "entries": [
+              "At 17th level when you enter combat with no mana, on the first round of combat you can spend an action to regain an amount of mana equal to your wisdom modifier + your proficiency bonus. Once you use this feature, you cannot do so again until you finish a short rest or long rest."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Enhancer Type Feature",
+            "entries": [
+              "At 18th level, gain a feature from your chosen Enhancer Type."
+            ]
+          },
+          {
+            "gainSubclassFeature": true
+          }
+        ],
+        [
+          {
+            "name": "Ability Score Improvement",
+            "entries": [
+              "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+              "If your DM allows the use of feats, you may instead take a feat."
+            ]
+          }
+        ],
+        [
+          {
+            "name": "Everlasting Soul",
+            "entries": [
+              "At 20th level your soul becomes everlasting. You stop physically aging and you cannot be aged magically. You are immune to being charmed or frightened and you always have advantage on any effect that would attempt to otherwise manipulate or infiltrate your mind. In addition, you cannot be possessed by a spirit as your will can repel any other spirit from entering your body. In addition, should someone attempt to revive your dead body it costs them no material components, as well as you do not gain the negative side effects when coming back from the dead."
+            ]
+          },
+          {
+            "name": "Soul Sacrifice",
+            "entries": [
+              "At 20th level you’ve learned of a method to go beyond your normal mana limit, between long rests you can form a bond with a special item and store up to 2 times your wisdom modifier in mana so long as you have that much mana to at the beginning of your long rest to store in that item. As a bonus action or regular action on your turn you can magically age yourself up to 2d4 years to regain that amount times ten back of mana, this aging bypasses your everlasting soul feature."
+            ]
+          }
+        ]
+      ],
+      "subclassTitle": "Enhancer Type",
+      "subclasses": [
+        {
+          "name": "Soul Guardian",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Summon Guardian",
+                "entries": [
+                  "At 1st level you can summon a guardian to protect you and your allies. You can only have 1 guardian summoned at a time. Use the following rules when creating your guardian:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The guardian has the same creature type and alignment as you. ",
+                      "The guardian's base physical statistics are all 16 and it shares your mental statistics, you roll a separate initiative for your guardian.",
+                      "Your gaurdian has a walking speed equal to yours, but does not share any additional forms of movement you may have.",
+                      "You determine its appearance, so long as it fits within the range of your creature type.",
+                      "The guardian shares any senses you possess.",
+                      "It has a number of hit points equal to 10 times your proficiency bonus when summoned, you can grant it more hit points by spending mana, it gains 5 hit points for every 1 point of mana you give it.",
+                      "The guardian's creature size is medium when you summon it.",
+                      "The guardian follows your commands to the best of its ability.",
+                      "The guardian can be no further than 30 ft from you, any attempt to do so instantly teleports it to the closest unoccupied space adjacent to yours.",
+                      "The guardian cannot be charmed or frightened unless you are charmed or frightened respectively.",
+                      "The guardian does not suffer from exhaustion.",
+                      "The gaurdian shares all conditions its summoner is afflicted with both before and after its summoning.",
+                      "The guardian can make one attack with either an unarmed strike dealing 1d6 bludgeoning damage or it can summon a spectral weapon of your choice and hit it for 1d6 + strength or dexterity, whichever is appropriate for the weapon.",
+                      "The guardian has a natural armor of 13 + its dexterity modifier.",
+                      "When the guardian is reduced to 0 hit points it disappears and you cannot summon it again until you finish a long rest. "
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Enhanced Guardian",
+                "entries": [
+                  "At 5th level, the following changes are made to your Summon Guardian feature:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The guardian's physical ability scores are now 18.",
+                      "When the Guardian takes the attack action, it takes two attacks instead of one.",
+                      "The damage die of both the guardian's unarmed strike and spectral weapon becomes 1d8.",
+                      "You can spend 5 mana to increase the guardian's size to large. When you do so, it gains an additional damage die to its unarmed strike and spectral weapon. It also gains advantage on strength ability checks but has disadvantage on stealth checks.",
+                      "When a creature would take damage from an attack while within 30 ft of the guardian, the guardian can spend its reaction to take the damage instead of that creature.",
+                      "Your guardian can be no further than 60 ft from you, any attempt to do so instantly teleports it to the closest unoccupied space adjacent to yours."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Safety",
+                "entries": [
+                  "At 9th level you have an aura that reaches out 20 feet and all creatures in that aura gain a bonus to their armor class equal to ½ your wisdom modifer(rounded down, minimum of 1). At 18th level the aura increases to 60 feet and the bonus becomes equal to your full wisdom modifier. You cannot provide this benefit if you are incapacitated."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Superior Guardian",
+                "entries": [
+                  "At 13th level, the following changes are made to your Summon Guardian Feature:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The guardian's physical ability scores are now 20.",
+                      "The gaurdian attacks three times when it takes the attack action instead of twice.",
+                      "You can spend 15 mana to make the guardian a huge creature. Doing so makes its attacks deal 3 times its damage dice with its attacks. It automatically fails stealth checks and has advantage on strength ability checks and saving throw.",
+                      "When a creature would bit hit by an attack while within 30 ft of the guardian, the guardian can use its reaction to become the target of the attack instead, the attack missing if it does not meet the guardian's armor class.",
+                      "The guardian can use your reaction in addition to its own."
+                    ]
+                  }
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Spiritual Protection",
+                "entries": [
+                  "At 15th, level all creatures within 30 feet of you have advantage on saving throws against being poisoned, paralyzed, petrified, and stunned. In addition a creature that is already affected by one of those conditions that can repeat its saving throw at then end of their turn can instead repeat the saving throw at the start of their turn. You cannot provide this benefit if you are incapacitated."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Supreme Guardian",
+                "entries": [
+                  "At 15th level, the following changes are made to your Summon Guardian Feature:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The guardian's physical ability scores are now 24.",
+                      "The guardian's natural armor becomes 15 + its dexterity modifier.",
+                      "The guardian has advantage on all saving throws while within 30 ft of you.",
+                      "When a creature would take damage while within 30 ft of the guardian, the guardian can use its reaction to take that damage instead.",
+                      "Your guardian has a movement speed equal to your own, including all forms of movement you possess.",
+                      "Your guardian shares any form of healing or enhancement (from your own enhancements) you receieve."
+                    ]
+                  }
+                ]
+              }
+            ]
+          ],
+          "source": "Enhancer",
+          "shortName": "Soul Guardian"
+        },
+        {
+          "name": "Spiritual Guide",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Guidance Dice",
+                "entries": [
+                  "At 1st level you gain access to a special resource that can aid your allies. You have a number of dice equal to your wisdom modifier + 1/2 your proficiency bonus(rounded up), these dice are a d6. You can use these dice to heal an ally for 1d6 + your wisdom modifier, alternatively you can grant these dice to creatures so that they can add these dice to their attack roll or saving throw. A creature can only have one of these dice at a time. At 15th level these dice increase to a d8 and the range becomes 60 feet. You regain all uses of this ability at the end of a long rest. "
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Healing Conversion",
+                "entries": [
+                  "At 5th level when you heal a creature instead of having the creature regain hit points you can instead have or gain temporary hit points equal to the amount it would have healed. These temporary hit points last until you finish a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Replenishing",
+                "entries": [
+                  "At 9th level you produce an aura that allows creatures to regain hit points as a bonus action. When they do, they can spend a single hit die as if gaining hit points at the end of a short rest. Once you reach 18th level the aura reaches out 40 feet and a creature can spend hit dice up to half their proficiency bonus rounded up. You cannot provide this benefit while you are incapacitated."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Multi-Aid",
+                "entries": [
+                  "At 13th level when you use an enhancer ability you can spend an additional 2 mana to apply the effect to another creature within 30 feet of the original target."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Recovery",
+                "entries": [
+                  "At 15th level creatures within 15 feet of you regain hit points equal to your wisdom modifier at the start of their turn, you cannot provide this bonus if you are incapacitated and this aura can only be gifted to creatures while in combat."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Ultimate Recovery",
+                "entries": [
+                  "At 18th level once per long rest, as an action, you gain a pool of healing equal to 500 which you can distribute to creatures within 120 feet. When you heal a creature you can rid them of any and all diseases and/or conditions that {@spell lesser restoration} would heal. In addition, you can spend an additional 20 points when healing a creature to heal any condition the creature is afflicted with as per the {@spell greater restoration} spell."
+                ]
+              }
+            ]
+          ],
+          "source": "Enhancer",
+          "shortName": "Spiritual Guide"
+        },
+        {
+          "name": "Primordial",
+          "subclassFeatures": [
+            [
+              {
+                "name": "Path to Demise",
+                "entries": [
+                  "At 1st level, you can mark a creature that you can see within 120 feet of you as the target that will be lead to its demise. When you mark a creature with this ability, you and all your allies deal an additional die of damage when they attack that creature with weapon or spell attacks, in addition you must concentrate on this feature as if you were concentrating on a spell. Once you use this feature, you cannot do so again until you finish a long rest. You gain an additional use of this feature when you gain a subclass feature, in addition at 18th level you no longer need concentration for this feature."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Dispel Enchantment",
+                "entries": [
+                  "At 5th level as an action, you can attempt to remove a supernatural effect that benefits or afflicts a creature within 120 feet of you. When you do, you make a wisdom check contestes by 10 +the spells level or 8 +half the creatures CR if the effect isn’t a spell. If you attempt to dispel a supernatural effect that the creature is constantly under the effect of you suppress that ability for 1 minute. You can do this a number of times equal to your wisdom modifier, after which you can spend 5 mana to use this feature, you regain uses of this ability without using mana after a long rest."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Pain",
+                "entries": [
+                  "At 9th level, creatures of your choice within 20 feet if you takes additional damage from any source equal to 1d4 + your Wisdom modifier. When you reach 13th level this increases to 1d6, 1d8 at 15th level, and once you reach 18th level this aura reaches out to 60 feet and deals 2d8 + double your wisdom modifier. You cannot provide this benefit if you are incapacitated."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Effective Weakening",
+                "entries": [
+                  "At 13th level when you attempt to hinder a creature with an enhancement you can spend 3 additional mana to give that creature disadvantage on their save. You can use this feature an amount of times equal to your wisdom modifier without using mana, after you have expanded uses of this feature you must finish a long rest to gain these free uses back."
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Aura of Weakness",
+                "entries": [
+                  "At 15th level creatures of your choice within 30 feet of you must make a Charisma Saving Throw against your enhancer DC, on a failed save they gain a penalty to their armor class equal to half your wisdom modifier(rounded up)[this cannot reduce creatures armor class below 10 + their dexterity modifier] and deal half damage on their first attack that uses either strength or dexterity. They can repeat this save at the beginning of each of their turns. Once they save against this effect they are immune to the effects of this for a number of turns equal to half their proficiency bonus(rounded down). "
+                ]
+              }
+            ],
+            [
+              {
+                "name": "Presence of the Ferryman",
+                "entries": [
+                  "At 18th level, as an action you can select one creature within 60 feet of you and have them make a Charisma Saving Throw against your enhancer save DC on a failed save the creature loses all of its damage immunities and resistances, if it has absorption that feature is suppressed by this ability, in addition until the start of your next turn that creature takes double damage from all creatures within 30 feet of you. Once you use this feature you cannot do so again until you finish a long rest. You can’t use this feature more then twice per day."
+                ]
+              }
+            ]
+          ],
+          "source": "Enhancer",
+          "shortName": "Soul Ferryman"
+        }
+      ],
+      "fluff": [
+        {}
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "source": "Enhancer",
+      "name": "Boost Attribute",
+      "entries": [
+        "At 2nd level by spending 3 mana as an action you can slightly boost a creatures ability score, as an action you can touch a creature and boost either their strength, dexterity, constitution, intelligence, wisdom, or charisma by 2, this increase can increase a creatures ability score over 20. You can only affect a single creatures ability score with this. This increase lasts one minute. ",
+        "At 6th level by spending 6 mana you can increase one creatures ability score by up to 4 and you can spend double the amount of mana when you use boost attribute to make it last for up to 1 hour. ",
+        "At 12th level you can boost a creatures ability score by 6 by spending 9 mana, this effect lasts for one minute and you can spend an additional 9 mana to make it last 1 hour. ",
+        "At 19th level you can now boost two different creatures ability score, boosting two different abilities score costs double the costs, in addition you can boost a creatures ability score by a maximum of 10 by spending 27 mana, and you can double that mana cost to increase the duration to 1 hour. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Vitality",
+      "entries": [
+        "At 2nd level you can spend 3 mana as an action to give a creature within 30 feet of you advantage on saving throws to avoid being poisoned, diseased, blinded, or deafened. This effect lasts for 1 hour and you can extend it an extra hour by spending an additional 2 points of mana.",
+        "At 6th level you can spend 8 mana to give a creature within 30 feet of you advantage on saving throws against being blinded, deafened, diseased, stunned, paralyyzed, petrified, poisoned, and to avoid getting a point of exhaustion. You can spend 4 additional points of mana to extend the duration by 1 hour for each 4 additional points of mana spent. ",
+        "At 12th level you can spend 16 mana to give a creature witihn 30 feet of you advantage on saving throws against being blinded, deafened, diseased, stunned, paralyzed, petrified, poisoned, to avoid a point of exhaustion, and to avoid having either their maximum hit points or their maximum ability scores decreased. In addition a creature that is afflicted already by one of those conditions has advantage on any saving throw they repeat to get rid of those conditions. Also creatures who already failed the saving throw regardless of whether they had this enhancement or not gain a bonus equal to ½ your wisdom score rounded up to both avoid getting those conditions and to get rid of those conditions if they already have them, this effect lasts for 1 hour but you can spend 6 additional mana to increase the time by 1 hour each. ",
+        "At 19th level you can spend 30 mana to give the benefits you would be able to give to one person when you spend 12 mana to to a number of creatures up to your wisdom modifier for one hour, and you can spend 10 mana to increase the duration for 1 hour per 10 mana spent. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Health",
+      "entries": [
+        "At 2nd level you can as an action you can spend 3 mana to touch a creature and restore its hit points by 1d10 + your wisdom modifier. When you restore a creatures hit points this way they also gain 1d4 temporary hit points.",
+        "At 6th level you can spend 2 additional mana points when you heal a creature to add an additional 1d10, when you do so you add 1d4 additional temporary hit points for each 1d10 after the initial 1d10 + your wisdom modifier. You can add an additional 1d10s up to your proficiency bonus, spending 2 additional mana after the initial 3 mana for each d10.",
+        "At 12th level when you heal a creature with this power you can spend an additional 2 mana when you heal a creature to get rid of one of the following conditions:blinded, deafened, poisoned, paralyzed or stunned. You can spend an additional 2 points to cure more then one condition if multiple conditions are affecting the creature.",
+        "At 19th level you can spend 50 mana to restore the hit points of all creatures of your choice within 30 feet of you and you can also cure any condition currently affecting those creatures. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Damage",
+      "entries": [
+        "At 2nd level you can spend 3 mana as a bonus action to give a creature witihn 60 feet of you a +2 bonus to their damage rolls with melee or ranged attacks. This bonus lasts for 1 minute.",
+        "At 6th level you can spend 7 mana to give up to two creatures a bonus to their damage rolls equal to 2+ 1/2 your wisdom modifier rounded up for one minute.",
+        "At 12th level you can spend 12 mana to give up to your 4 creatures a bonus to their damage rolls(this now includes spell attacks) equal to your wisdom modifier + your proficiency bonus for up to 1 minute.",
+        "At 19th level you can spend 18 mana to give as many creatures within range a bonus to their damage roll equal to 2 times your wisdom modifier + your proficiency modifier for up to 1 minute. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Defense",
+      "entries": [
+        "At 2nd level you can spend 3 mana to give a creature within 30 feet of you as a bonus action to give that creature a +1 modifier to their armor class. This benefit lasts for one minute.",
+        "At 6th level you can spend 7 mana to give a creature a +3 bonus to its armor class for one minute.",
+        "At 12th level you can spend an additional 5 mana when you spend mana to give an additional creature within range the bonus to their AC as well. ",
+        "At 19th level you can spend 16 mana to give a creature in range a bonus to their armor class equal to your wisdom modifier (minimum of 1)."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Resilience",
+      "entries": [
+        "At 2n level by spending 4 mana as an action you can touch a creature and give it resistance to either: Acid, Cold, Fire, Lightning, Poison, or Thunder damage for 1 hour.",
+        "At 6th level you can spend 9 mana to give a creature resistance to one of the following damage types: Force, Necrotic, Psychic, or Radiant for 1 hour. ",
+        "At 12th level you can spend an additional 3 mana to increase the duration by 1 hour for each 3 mana spent, or you can spend an additional 6 mana to grant the resistance to an additional creature you can touch.",
+        "At 19th level you can spend an extra 20 mana when giving a creature resistance to instead give it immunity to that damage type. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Boost Speed",
+      "entries": [
+        "At 2nd level you can spend 3 mana as a bonus action to give a creature within 30 feet of you a bonus to its walking speed equal to 5 times your wisdom modifier, for 2 hours.",
+        "At 6th level you can spend 9 mana to double a creatures walking speed and give all attacks of opportunity against that creature disadvantage for 2 hours.",
+        "At 12th level you can spend 14 mana to double a creature's movement speed for two hours. While in this state all attacks of opportunity have disadvantage and the creature can use its bonus action to take either the disengage or dash actions. In addition a creature under this effect that moves in a straight line for at least 30 feet can make their first melee attack with advantage.",
+        "At 19th level you can spend 30 mana to triple a creatures movement speed for 2 hours, when you do, that creature gains advantage on dexterity ability checks and saving throws, and attacks have disadvantage to hit that creature. In addition that creature can take the dash or disengage actions as a bonus action and they gain an additional action per turn."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Enhance Attribute",
+      "entries": [
+        "At 2nd level you can spend 2 mana to enhance one of the creature's ability score that is within 5 feet of you as a bonus action, while enhanced they have advantage on ability checks using with that ability score. This effect lasts for 1 hour.",
+        "At 6th level you can spend 5 mana when you enhance their ability score to give them an advantage on saving throws using that ability score for one hour.",
+        "At 12th level you can spend 10 mana to enhance two attributes of that person giving them an advantage on ability checks and saving throws of those ability scores for one hour.",
+        "At 19th level you can spend 16 mana to enhance two attributes giving them advantage on ability checks and saving throws as well as giving them a bonus equal to your wisdom modifier to checks and saving throws using those two ability scores for 1 hour. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Draconian Breath Weapon",
+      "entries": [
+        "At 2nd level you can enhance a creatures maneuverability, when you do you can spend an action and 3 mana to touch a creature, the touched creature does not expand any additional movement when climbing and only needs to spend 5 feet of movement when standing up from prone.",
+        "At 6th level you can touch a creature and spend 7 mana to give them benefits as if you spent 3 mana as well as the creature can swim without expanding additional movement, the creature also has advantage on ability checks to escape from being grappled.",
+        "At 12th level you can spend an additional 8 mana to give multiple creatures up to your wisdom modifier the benefits that a single creature would get when you spend 7 mana to give a creature the benefits of this ability at 6th level.",
+        "At 19th level you can spend 19 mana to give a creature immunity to the grappled and restrained conditions, as well as that creature does not expand additional movement on difficult terrain and their movement speed is not reduced when swimming or climbing, and they can spend 5 feet of movement to get up from being prone."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Enhance Form",
+      "entries": [
+        "At 2nd level you can enhance a creatures form, when you do you can spend 5 mana to change the appearance of one creature that is within 5 feet of you as an action from its original form into another humanoid creature, the humanoid creature cannot have a CR greater than the creatures level. This effect lasts for up to 4 hours but you can choose to end it early if you wish and while the creatures shape is changed it loses all racial features it once had and gains the features of the creature it has been transformed into. You can only do this to a willing creature. ",
+        "At 6th level by spending 15 mana you can now enhance a creature shape so that they can transform into a beast with a CR no higher then their level, when they do they gain all traits of the creature they transform unto but lose all racial traits they had before they can use any class features they have so long as they are able to thus if they can cast spells, they must be able to speak in their new form to cast spells with verbal components. While transformed they gain the creature's physical ability scores and the creature's hit points becomes their temporary hit points, they retain their mental ability scores whole transformed. When they run out of temporary hit points they instantly revert back to their original form taking any leftover damage that caused them to drop to below 0 temporary hit points as damage. You can only do this to a willing creature.",
+        "At 12th level by spending 25 mana you can choose to grant a creature different attributes from another humanoid or beast creature, thus you can choose to grant a creature with aarakocra’s wings granting them a fly speed that an aarakocra would have, or you can grant them a bats echolocation granting them ability to locate things with blindsight. You can only do this to a willing creature. ",
+        "At 19th level you can spend 50 mana to transform a creature into a different creature of your choice, the creature you choose can be no higher in CR then the level of the creature you are transforming, this transformation though only lasts for 1 hour, and the creature cannot gain legendary actions, legendary resistances, or lair action in this way. While transformed in this way they use either their ability scores or the transformed creatures ability scores, they can choose which ability scores to use from each of their ability scores. They gain the creatures hit points as temporary hit points and once they lose all the temporary hit points they revert back to their original form. While transformed they lose all their racial traits but they can use any other trait like class traits and features or feats they may have gained. Alternatively you can use this ability to transform a mundane item into a creature, in which case the creature cannot be a CR higher than your level, the creature follows your commands and will revert back to that mundane object after either an hour has passed or after it is reduced to 0 hit points or lower."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Weakening Gaze",
+      "entries": [
+        "At 2nd level you can target a creature as an action within 30 feet of you by spending 4 mana and force them to make a Constitution saving throw against your enhancer DC. On a failure the creature receives a -2 penalty to all their Strength, Dexterity, and Constitution saving throws for one minute. They can repeat their save at the end of each of their turns to get rid of the penalty. You concentrate on this power as if concentrating on a spell.",
+        "At 6th level you can spend 8 mana to force a creature to make a Constitution saving throw, on a failure the creature takes a -2 penalty to all saving throws.",
+        "At 12th level you can spend 25 mana to target all creatures of your choice within range with your weakening gaze.",
+        "At 19th level you can spend an extra 10 mana when you use this ability to increase the penalty to your wisdom modifier instead of the flat 2 it usually is."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Chains of Sloth",
+      "entries": [
+        "At 2nd level you can target one creature within 60 feet of you and as an action you can spend 5 mana to slow the creature down, that creature must make a Strength saving throw against you enhancer DC as spectral chains attempt impede its movement. A creature that fails this saving throw has their speed reduced by 5 times your proficiency bonus, in addition their first attack each turn has disadvantage. This effect lasts one minute and you concentrate on this effect like you would concentrate on a spell.",
+        "At 6th level when you target a creature you instead can spend 10 mana when forcing them to make a strength saving throw, if they fail you can reduce their movement to 10 feet, or 5 feet if their movement was already 10 feet, in addition attacks they make are made with disadvantage while their movement is reduced. They can repeat this save at the end of each of their turns.",
+        "At 12th level you can spend up to 30 mana to target an additional two targets with this ability, or you can spend 20 mana to only target an additional one target beside the first to also make the save.",
+        "At 19th level you can spend 25 mana to force a creature to make a strength saving throw against your enhancer DC. On a failed save the target is restrained, while restrained in this way they can only make one attack per round, and they can only make an action or a bonus action not both. When you spend additional mana for multiple targets you instead spend 15 additional mana instead of 10 and you can target as many creatures within range so long as you expend the additional mana for each target. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Eyes of the Spy",
+      "entries": [
+        "At 2nd level you can spend 2 mana as a bonus action to force a creature within 30 feet of you to make an intelligence saving throw against your enhancer DC. On a failed save you learn one of the following things: Its highest ability score, its lowest ability score, whether or not it's Armor class is higher than yours or lower, whether the creature can cast spells, or if the creature has any vulnerabilities or weaknesses. A creature immune to divination magic is immune to this effect, and is counted as automatically succeeding against it. A creature that succeeds knows you attempted to learn about it somehow. ",
+        "At 6th level you can spend 6 mana to force the creature you can see as a bonus action within 30 feet of you to make an intelligence saving throw against your enhancer save DC. On a failed save you can learn one of the following things: Its highest ability score, its lowest ability score, what is the creatures creature type, if it has any saving throw proficiencies, what it's armor class is, if the creature can cast spells and if so what the highest level spell it has, whether the creature has any weaknesses or vulnerabilities, or whether the creature has any damage resistances or immunities and what they are.",
+        "At 12th level you can spend an additional 4 mana to force an additional creature within your range to also make the save against your enhancer DC, you can choose to learn the same thing or a different thing if that other creature(s) fails their save. In addition you can spend 5 additional mana to ensure that the creature doesn’t realize it was you that was trying to peer into its being.",
+        "At 19th level you can spend 30 mana to force a creature to make an intelligence saving throw against you spell save DC on a failed save, you know everything you wish to know, other than the creature's past and memories, that you want to know about that creature. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Phantom Threat",
+      "entries": [
+        "At 2nd level, as an action you can force a creature you can see witihn 120 feet by spending 6 mana to make a wisdom saving throw against your enhancer save DC. On a failed save, the creature cannot target you with attacks as it feels as if there is some greater enemy that will surprise it should it focus on you. This effect lasts for one minute and the creature can reattempt the save at the end of each of its turn. A creature is immune to this effect if it is immune to the frightened condition ",
+        "At 6th level, as an action you can spend 14 mana to target creature you can see within 120 feet of you to make a wisdom saving throw on a failed save the creature feels that there is always another creature behind it even though it cannot see it, a creature that attempts to strike the creature has advantage on its attacks so long as it is under this effect, this effect lasts for one minute and the creature can repeat its save at the start of each of its turns.",
+        "At 12th level you can spend an additional 7 mana when you would spend 14 mana for this ability to be able to as a reaction when the creature is struck by an attack that had advatage as a result of this ability to force it to make a Constitution saving throw, on failed save the creature also becomes paralyzed for the duration of this ability, or until it saves. ",
+        "At 19th level, as an action you can spend 35 mana to force a creature to make a wisdom saving throw, so long as the creature is within 120 feet of you. On a failed save, the creature cannot see a number of creatures up to your wisdom modifier that are also within 120 feet of you, even if they have the ability to normally do so with blindsight, to that creature they have disappeared without a trace. Those creatures that you makred are counted as invisible to that creature for a minute, each time the creature takes damage and at the start of its turn it can repeat the save ending the effect on a success."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Distortion Blast",
+      "entries": [
+        "At 2nd level you can force a creature within 30 feet of you to make a charisma saving throw by spending an action and 5 mana. On a failed save the creature takes 1d4 psychic damage for each 5 feet closer to you that the creature moves.",
+        "At 6th level, you can spend an action and 12 mana to force a creature to make a charisma saving throw against your enhancer save DC. On a failed save, the creature must roll a d6 on its turn to determine what it does. 1: The creature makes a full round of attacks against either an ally within its movement speed, or if there is no ally it can make it to it makes them against itself. 2-3: The creature becomes stunned for until the end of your next round and is unable to do anything else. 5: The creature rolls a d4 to determine if it goes 1-north, 2- east, 3-south, or 4-west with its full movement speed. 6:the creature can act as normal on this turn.",
+        "At 12th level you can spend 18 mana as an action to force the creature to make a charisma saving throw against your enhancer save DC. On a failed save the creature gets teleported up to 60 feet in a direction you choose. You can use the following turns spending an action and additional 2 mana to force the creature to teleport again to a place witihn 60 feet of it of your choice. If you choose not to do so you must spend the points another time to be able to do so.",
+        "At 19th level. You can spend 27 mana to force a creature to make a charisma saving throw against you enhancer save DC, on a failed save the creature disappears and is transported to a random plane of existence, as determined by a die roll by the dm. You concentrate on this ability as if you were concentrating on a spell, this effect can last up to 1 minute.  "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Erosive Ray",
+      "entries": [
+        "At 2nd level you can spend 6 mana as an action to force a creature to make a Constitution Saving Throw DC. On a failed save the creature takes a -2 penalty to their armor class, in addition the creature deals 2 less damage. This effect lasts one minute and you concentrate on this effect like you would a spell.",
+        "At 6th level you can spend 12 mana to force a creature to make a Constitution Saving Throw on a failed save you can reduce one of the creatures damage immunity to resistance or you can get rid of one the creatures damage resistances. This effect lasts one minute and you concentrate on this effect like you would a spell.",
+        "At 12th level you can spend 22 mana to force a creature to make a Constitution Saving Throw if the creature fails the saving throw it armor class gets reduced to 10 + its dexterity modifier. This effect lasts 1 minute and you concentrate on this effect like you would a spell.",
+        "At 19th level you can spend 35 mana to force a creature to make a Constitution Saving Throw on a failed saving throw the creature loses all its damage immunities and damage resistances for one minute. You concentrate on this ability like you would a spell."
+      ],
+      "featureType": "Enhancer Powers"
+    }
+  ]
+}
