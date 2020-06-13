@@ -387,7 +387,8 @@
             "name": "Enhancer Type Feature",
             "entries": [
               "At 18th level, gain a feature from your chosen Enhancer Type."
-            ]
+            ],
+            "gainSubclassFeature": true
           },
           {
             "gainSubclassFeature": true
