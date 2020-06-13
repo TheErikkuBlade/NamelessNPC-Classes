@@ -303,7 +303,8 @@
             "name": "Enhancer Type Feature",
             "entries": [
               "At 9th level, gain a feature from your chosen Enhancer Type."
-            ]
+            ],
+            "gainSubclassFeature": true
           }
         ],
         [
