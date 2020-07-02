@@ -195,8 +195,8 @@
             "name": "Enhancer Mana",
             "entries": [
               "At 1st level, you gain access to a special resource called mana which is a pool of energy you pull from to use your different enhancer abilities. For the abilities of enhancer you use your wisdom score for the attack rolls and DCs for any and all abilities. You gain back all this mana at the end of a long rest. ",
-              "Enhancer Save DC=8+Your proficiency modifier+your Wisdom ability score modifier",
-              "Enhancer Special Attack Modifier=Proficiency Modifier+your Wisdom Ability Modifier"
+              "Enhancer Save DC= 8 + your Proficiency Bonus + your Wisdom modifier",
+              "Enhancer Special Attack Bonus= Proficiency Bonus + your Wisdom modifier"
             ]
           },
           {
@@ -649,7 +649,7 @@
       "name": "Boost Attribute",
       "entries": [
         "At 2nd level by spending 3 mana as an action you can slightly boost a creatures ability score, as an action you can touch a creature and boost either their strength, dexterity, constitution, intelligence, wisdom, or charisma by 2, this increase can increase a creatures ability score over 20. You can only affect a single creatures ability score with this. This increase lasts one minute. ",
-        "At 6th level by spending 6 mana you can increase one creatures ability score by up to 4 and you can spend double the amount of mana when you use boost attribute to make it last for up to 1 hour. ",
+        "At 6th level by spending 6 mana you can increase one creatures ability score by 4 and you can spend double the amount of mana when you use boost attribute to make it last for up to 1 hour. ",
         "At 12th level you can boost a creatures ability score by 6 by spending 9 mana, this effect lasts for one minute and you can spend an additional 9 mana to make it last 1 hour. ",
         "At 19th level you can now boost two different creatures ability score, boosting two different abilities score costs double the costs, in addition you can boost a creatures ability score by a maximum of 10 by spending 27 mana, and you can double that mana cost to increase the duration to 1 hour. "
       ],
@@ -681,10 +681,10 @@
       "source": "Enhancer",
       "name": "Boost Damage",
       "entries": [
-        "At 2nd level you can spend 3 mana as a bonus action to give a creature witihn 60 feet of you a +2 bonus to their damage rolls with melee or ranged attacks. This bonus lasts for 1 minute.",
-        "At 6th level you can spend 7 mana to give up to two creatures a bonus to their damage rolls equal to 2+ 1/2 your wisdom modifier rounded up for one minute.",
-        "At 12th level you can spend 12 mana to give up to your 4 creatures a bonus to their damage rolls(this now includes spell attacks) equal to your wisdom modifier + your proficiency bonus for up to 1 minute.",
-        "At 19th level you can spend 18 mana to give as many creatures within range a bonus to their damage roll equal to 2 times your wisdom modifier + your proficiency modifier for up to 1 minute. "
+        "At 2nd level you can spend 3 mana as a bonus action to give a creature within 60 feet of you a +2 bonus to their damage rolls with weapon attacks. This bonus lasts for 1 minute. You concentrate on this feature like you would a spell.",
+        "At 6th level you can give up to two creatures a bonus to their damage rolls with weapon attacks equal to 2+ 1/2 your wisdom modifier rounded up for one minute by spending 7 mana per creature.",
+        "At 12th level you can give up to 4 creatures a bonus to their damage rolls with weapon or spell attacks equal to your wisdom modifier + your proficiency bonus for up to 1 minute by spending 12 mana per creature.",
+        "At 19th level you can give a number of creatures up to your Wisdom Modifier within range a bonus to their damage rolls equal to your wisdom modifier + your proficiency bonus for up to 1 minute by spending 18 mana per creature."
       ],
       "featureType": "Enhancer Powers"
     },
@@ -694,7 +694,7 @@
       "entries": [
         "At 2nd level you can spend 3 mana to give a creature within 30 feet of you as a bonus action to give that creature a +1 modifier to their armor class. This benefit lasts for one minute.",
         "At 6th level you can spend 7 mana to give a creature a +3 bonus to its armor class for one minute.",
-        "At 12th level you can spend an additional 5 mana when you spend mana to give an additional creature within range the bonus to their AC as well. ",
+        "At 12th level when you use Boost Defense, you can spend an additional 5 mana to target a second creature within range.",
         "At 19th level you can spend 16 mana to give a creature in range a bonus to their armor class equal to your wisdom modifier (minimum of 1)."
       ],
       "featureType": "Enhancer Powers"
@@ -703,9 +703,9 @@
       "source": "Enhancer",
       "name": "Boost Resilience",
       "entries": [
-        "At 2n level by spending 4 mana as an action you can touch a creature and give it resistance to either: Acid, Cold, Fire, Lightning, Poison, or Thunder damage for 1 hour.",
+        "At 2nd level by spending 4 mana as an action you can touch a creature and give them resistance to either: Acid, Cold, Fire, Lightning, Poison, or Thunder damage for 1 hour.",
         "At 6th level you can spend 9 mana to give a creature resistance to one of the following damage types: Force, Necrotic, Psychic, or Radiant for 1 hour. ",
-        "At 12th level you can spend an additional 3 mana to increase the duration by 1 hour for each 3 mana spent, or you can spend an additional 6 mana to grant the resistance to an additional creature you can touch.",
+        "At 12th level you can increase the duration by 1 hour for every 3 mana spent, or you can spend an additional 6 mana to grant the resistance to an additional creature you can touch.",
         "At 19th level you can spend an extra 20 mana when giving a creature resistance to instead give it immunity to that damage type. "
       ],
       "featureType": "Enhancer Powers"
@@ -736,7 +736,7 @@
       "source": "Enhancer",
       "name": "Enhance Maneuverability",
       "entries": [
-        "At 2nd level you can enhance a creatures maneuverability, when you do you can spend an action and 3 mana to touch a creature, the touched creature does not expand any additional movement when climbing and only needs to spend 5 feet of movement when standing up from prone.",
+        "At 2nd level you can enhance a creatures maneuverability, when you do you can spend an action and 3 mana to touch a creature, the touched creature does not expend any additional movement when climbing and only needs to spend 5 feet of movement when standing up from prone.",
         "At 6th level you can touch a creature and spend 7 mana to give them benefits as if you spent 3 mana as well as the creature can swim without expanding additional movement, the creature also has advantage on ability checks to escape from being grappled.",
         "At 12th level you can spend an additional 8 mana to give multiple creatures up to your wisdom modifier the benefits that a single creature would get when you spend 7 mana to give a creature the benefits of this ability at 6th level.",
         "At 19th level you can spend 19 mana to give a creature immunity to the grappled and restrained conditions, as well as that creature does not expand additional movement on difficult terrain and their movement speed is not reduced when swimming or climbing, and they can spend 5 feet of movement to get up from being prone."
@@ -800,7 +800,7 @@
     },
     {
       "source": "Enhancer",
-      "name": "Distortion Blast",
+      "name": "Transposition Blast",
       "entries": [
         "At 2nd level you can force a creature within 30 feet of you to make a charisma saving throw by spending an action and 5 mana. On a failed save the creature takes 1d4 psychic damage for each 5 feet closer to you that the creature moves.",
         "At 6th level, you can spend an action and 12 mana to force a creature to make a charisma saving throw against your enhancer save DC. On a failed save, the creature must roll a d6 on its turn to determine what it does. 1: The creature makes a full round of attacks against either an ally within its movement speed, or if there is no ally it can make it to it makes them against itself. 2-3: The creature becomes stunned for until the end of your next round and is unable to do anything else. 5: The creature rolls a d4 to determine if it goes 1-north, 2- east, 3-south, or 4-west with its full movement speed. 6:the creature can act as normal on this turn.",
@@ -813,10 +813,54 @@
       "source": "Enhancer",
       "name": "Erosive Ray",
       "entries": [
-        "At 2nd level you can spend 6 mana as an action to force a creature to make a Constitution Saving Throw DC. On a failed save the creature takes a -2 penalty to their armor class, in addition the creature deals 2 less damage. This effect lasts one minute and you concentrate on this effect like you would a spell.",
-        "At 6th level you can spend 12 mana to force a creature to make a Constitution Saving Throw on a failed save you can reduce one of the creatures damage immunity to resistance or you can get rid of one the creatures damage resistances. This effect lasts one minute and you concentrate on this effect like you would a spell.",
+        "At 2nd level you can spend 6 mana as an action to force a creature to make a Constitution Saving Throw. On a failed save the creature takes a -2 penalty to their armor class, in addition the creature deals 2 less damage. This effect lasts one minute and you concentrate on this effect like you would a spell.",
+        "At 6th level you can spend 12 mana to force a creature to make a Constitution Saving Throw on a failed save you can reduce one of the creatures damage immunity to resistance or you can nullify one of the creatures damage resistances. This effect lasts one minute and you concentrate on this effect like you would a spell.",
         "At 12th level you can spend 22 mana to force a creature to make a Constitution Saving Throw if the creature fails the saving throw it armor class gets reduced to 10 + its dexterity modifier. This effect lasts 1 minute and you concentrate on this effect like you would a spell.",
         "At 19th level you can spend 35 mana to force a creature to make a Constitution Saving Throw on a failed saving throw the creature loses all its damage immunities and damage resistances for one minute. You concentrate on this ability like you would a spell."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Elemental Beam",
+      "entries": [
+        "At 2nd level you can spend 3 mana as an action to make an enhancer special attack at a creature within 60 feet of you, on a successful hit you deal 2d10 damage, you determine the damage based on a d6. If you roll a 1 you do acid damage, if you roll a 2 you deal cold damage, if you roll a 3 you do fire damage, if you roll a 4 you deal lightning damage, if you roll a 5 you deal thunder damage and if you roll a 6 you can choose which type you would like it to be.",
+        "At 6th level you can spend extra mana to increase the damage of your Elemental Beam by 1d10 for every 2 extra mana you spend. The maximum amount of mana you can spend in this way is equal to twice your proficiency bonus.",
+        "At 12th level you can spend an extra 6 mana to change this feature from a special attack to a saving throw, forcing the creature to make a dexterity saving throw against your enhancer save DC instead. Creatures take half damage on a success.",
+        "At 19th level the base damage of your elemental beam increases to 4d10 damage and you can now add your wisdom modifier to the damage of your elemental beam attacks."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Distracting Tick",
+      "entries": [
+        "At 2nd level you can use your action and spend 2 mana to force a creature within 120 feet that you can see to make an intelligence saving throw against your enhancer DC. On a failed save the creature’s mind begins to wander not allowing it to focus. The creature gains disadvantage on all attacks it makes until the start of your next turn, and can’t benefit from taking the dodge action.",
+        "At 6th level you can spend 6 mana and have the effect last one minute, when you do you concentrate on this effect like it was a spell.",
+        "At 12th level you can spend an additional 10 mana to target an additional creature within 30 feet of the original creature and have it also make the same saving throw, if both creatures fail the saving throw they are instead {@condition stunned} for the duration.",
+        "At 19th level while a creature is under the effect of distracting tick you can use your reaction when the creature makes an attack to produce a sound that causes them to instantly focus on you, when you do the creature automatically misses their attack, you must do this before the creature attacks and the creature cannot be deafened for this to work."
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Deathly Pull",
+      "entries": [
+        "At 2nd level you can spend 4 mana as an action to cause all creatures within 10 feet of you to make a Constitution Saving throw, creatures that fail the save take 4d6 necrotic and are pushed back 10 feet away from you. Alternatively if the creature is not within 10 feet of you can instead pull them to within 5 feet of you if there is a space available. On a successful saving throw they take half damage and aren’t moved.",
+        "At 6th level you can increase the damage of this attack by 2d6 for 4 additional mana, you can spend a number of instances of this damage equal to your proficiency bonus. For every 2 mana spent you increase the range of this effect by 5 feet.",
+        "At 12th level you can spend an additional 6 mana when you use this attack to cause creatures who fail their saving throw to be unable to regain hit points until the end of their next turn. ",
+        "At 19th level you can spend 10 mana when you use your deathly pull, and you can move willing allies to any space within the area of effect, so long as those allies do not have their movement speed reduced to 0. "
+      ],
+      "featureType": "Enhancer Powers"
+    },
+    {
+      "source": "Enhancer",
+      "name": "Star Shower",
+      "entries": [
+        "At 2nd level you can make a mote of starlight as an action by spending 4 mana. While the mote flies around you, creatures that attack you and are within 5 feet of you take 2 radiant damage. In addition, as a reaction when a creature moves out of more than 5 feet away from you while you have the star mote, you can force them to make a constitution saving throw. On a failed save, the creature take 2d6 + your wisdom modifier radiant damage and the next attack against them gains advantage as the mote of starlight shines brightly around them guiding attacks to it. Once you do so, the mote of starlight disappears and no longer flies by you as it is expended. You can only have one mote of starlight at a time.",
+        "At 6th level, when you create your starlight mote you can now create a number of starlight motes equal to your profiiciency bonus by spending 4 additional mana per every star mote after the first. Creatures take an additional point of radiant damage per additional mote after the first one to a maximum of 7 every time a creature hits you with a melee attack while within 5 ft. In addition, when you have more then one mote you can have the multiple motes of starlight quickly orbit around you forcing all creatures within 5 feet of you to make a dexterity saving throw. On a failed save they take 4d6 radiant damage and you have advantage on Wisdom (Perception) checks to find them for the next hour, on a success they instead take half damage.",
+        "At 12th level when you a creature fails a saving throw against your star mote, they cannot gain the benefits of being {@condition invisible} for the next minute.",
+        "At 19th level as an action you can select a 40 foot radius, 300 feet tall cylinder within 300 feet of you and spend 30 mana to create a barrage of falling stars. When you do all, creatures in the area must make a constitution saving throw, on a failed save the creature takes 14d12 radiant damage and becomes covered in stardust. While covered in this stardust they are {@condition blinded}, they or an ally creature can use an action to clear their eyes getting rid of the stardust and curing them of the {@condition blinded} condition."
       ],
       "featureType": "Enhancer Powers"
     }
